@@ -12,26 +12,30 @@
 
  }
 
- 
+
 
  /* shared style colour */
 
 
-.same-bg{
-    background-color:#FFF8F3;
-}
 
-.bolding{
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
 
-}
+ .same-bg {
+     background-color: #FFF8F3;
+ }
 
-.p-size{
-    font-size: 18px;
-    color: #757575;
-}
+ .bolding {
+     font-size: 35px;
+     font-weight: bold;
+     color: #181818;
+
+ }
+
+ .p-size {
+     font-size: 18px;
+     color: #757575;
+ }
+
+
 
  .shared {
      color: #FD6E0A;
@@ -42,87 +46,129 @@
      color: #474747;
  }
 
- .btn{
+ .btn {
 
-    background-color: #FD6E0A;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    padding: 18px 35px ;
-    border-radius: 5px ;
-    
+     background-color: #FD6E0A;
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+     border: none;
+     padding: 18px 35px;
+     border-radius: 5px;
+
  }
 
-/* main style  */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-    
-}
+ /* main style  */
+ main {
+     max-width: 1140px;
+     margin: 0 auto;
+
+ }
 
 
  /* about style  */
- .About{
-    border-radius: 10px;
-    padding: 130px 150px ;
-    text-align: center;
-    margin-top: 130px;
+ .About {
+     border-radius: 10px;
+     padding: 130px 150px;
+     text-align: center;
+     margin-top: 130px;
  }
 
- .about-items{
-    display: flex;
-    justify-content: space-around;
+ .about-items {
+     display: flex;
+     justify-content: space-around;
+
+ }
+
+ .item-description {
+     font-weight: bold;
+ }
+
+ /* skills part style  */
+
+ .h-skills {
+     text-align: center;
+     padding-bottom: 30px;
     
  }
 
- .item-description{
-    font-weight: bold;
- }
- 
-/* header  */
-
-.banner{
-
-    background-image: url("../images/developer.png") , url("../images/header_bg.png");
-background-repeat: no-repeat;
-background-position: top left , right bottom;
-
-}
-
-
-    /* banner style  */
-
-
-
-
-.banner{
-    display: flex;
-    justify-content: space-around ;
-    /* margin: 0 40px 0 210px ; */
-}
-
-.imgs{
-    width: 580px;
-}
-
-.banner-box{
-
-    max-width: 590px ;
-}
-
- .fonts{
-    font-weight: 600;
-    font-size: 45px ;
+ .p-skills {
+     text-align: center;
  }
 
-.bold{
-    font-weight: bold;
-    font-size: 85px;
-}
-.display{
-    color: #4f4f4f;
-}
+ .skills-text {
+
+     font-size: 16px;
+     color: #757575;
+ }
+
+ .skills-title {
+     color: rgba(24, 24, 24, 1);
+     font-size: 20px;
+     font-weight: bold;
+     padding-top: 30px;
+ }
+
+ /* header  */
+
+ .banner-content {
+     height: 69vh;
+     background-image: url("../images/developer.png");
+     background-repeat: no-repeat;
+     background-position: left top;
+     background-size: contain, cover;
+     background-position: left;
+
+     /* padding-top: 100px;
+  padding-bottom: 100px; */
+
+
+
+ }
+
+
+ .banner {
+
+     background-image: url("../images/header_bg.png");
+     background-repeat: no-repeat;
+     background-position: right bottom;
+
+ }
+
+
+ /* banner style  */
+
+
+
+
+ .banner {
+     display: flex;
+     justify-content: space-around;
+     margin: 0 40px 0 210px;
+ }
+
+ .imgs {
+     width: 580px;
+ }
+
+ .banner-box {
+
+     max-width: 590px;
+ }
+
+ .fonts {
+     font-weight: 600;
+     font-size: 45px;
+ }
+
+ .bold {
+     font-weight: bold;
+     font-size: 85px;
+ }
+
+ .display {
+     color: #4f4f4f;
+ }
 
 
 
@@ -130,34 +176,59 @@ background-position: top left , right bottom;
  /* nav style  */
  nav {
      display: flex;
-     
+
      align-items: center;
      justify-content: space-between;
      margin: 0px 200px;
-     
+
  }
 
  nav>ul {
 
-    
+
      display: flex;
      align-items: center;
- 
+
 
  }
+
  /* nav ul li :hover{
     background-color: #47474739;
  } */
 
 
-nav ul li{
+ nav ul li {
 
-    list-style: none;
-}
+     list-style: none;
+ }
 
  nav li a {
      margin-right: 55px;
      text-decoration: none;
  }
 
- 
+ /* skills containt style  */
+
+ .skills-container {
+     display: flex;
+     gap: 24px;
+     padding-top: 50px;
+     padding-bottom: 130px;
+    
+
+ }
+
+ .simple-box {
+ max-width: 267px;
+ max-height: 277px;
+     padding-top: 100px;
+     padding-left: 30px;
+     padding-bottom: 30px;
+     padding-right: 30px;
+     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.167);
+     border-radius: 5px;
+ }
+
+ .skills{
+    padding-top: 130px;
+ }
