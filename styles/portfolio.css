@@ -12,8 +12,26 @@
 
  }
 
+ 
+
  /* shared style colour */
 
+
+.same-bg{
+    background-color:#FFF8F3;
+}
+
+.bolding{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+
+.p-size{
+    font-size: 18px;
+    color: #757575;
+}
 
  .shared {
      color: #FD6E0A;
@@ -36,22 +54,46 @@
     
  }
 
- /* header  */
+/* main style  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+
+ /* about style  */
+ .About{
+    border-radius: 10px;
+    padding: 130px 150px ;
+    text-align: center;
+    margin-top: 130px;
+ }
+
+ .about-items{
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+ .item-description{
+    font-weight: bold;
+ }
+ 
+/* header  */
 
 .banner{
 
-    background-image:  url (../images/developer.png), url(../images/header_bg.png);
-background-repeat: no-repeat; 
-/* background-size: 90px; */
-background-position: top left , bottom right;
-
+    background-image: url("../images/developer.png") , url("../images/header_bg.png");
+background-repeat: no-repeat;
+background-position: top left , right bottom;
 
 }
 
 
-
-
     /* banner style  */
+
+
 
 
 .banner{
@@ -81,6 +123,8 @@ background-position: top left , bottom right;
 .display{
     color: #4f4f4f;
 }
+
+
 
 
  /* nav style  */
