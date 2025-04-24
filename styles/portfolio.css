@@ -133,8 +133,7 @@
      background-size: contain, cover;
      background-position: left;
 
-     /* padding-top: 100px;
-  padding-bottom: 100px; */
+
 
 
 
@@ -143,7 +142,7 @@
 
  .banner {
 
-     background-image: url("../images/header_bg.png");
+     background-image: url("../images/header_bg.png") 
      background-repeat: no-repeat;
      background-position: right bottom;
 
@@ -205,10 +204,6 @@
 
 
  }
-
- /* nav ul li :hover{
-    background-color: #47474739;
- } */
 
 
  nav ul li {
@@ -316,3 +311,50 @@ padding-bottom: 33px;
   text-align: center;
   padding-bottom: 113px;
 }
+
+
+/* footer section style  */
+footer{
+    display: flex;
+    gap: 117px;
+padding: 130px 230px;
+
+}
+
+.intro-icon{
+    
+    width: 120px;
+    height: 24px;
+    
+}
+
+.intro-icon a img {
+  /* padding-right: 24px; */
+    margin-right: 10px;
+}
+
+.intro{
+    padding-bottom: 20px;
+}
+.intro-title {
+    padding-bottom: 28px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    width: 460px;
+    border-radius: 5px ;
+    background-color: white;
+    font-size: 18px ;
+    color:rgba(117, 117, 117, 1);
+    margin-bottom: 24px;
+   padding-left: 30px;
+
+
+}
+
+
+
