@@ -139,14 +139,20 @@
 
  }
 
+ .banner{
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+ }
 
- .banner {
+
+ /* .banner {
 
      background-image: url("../images/header_bg.png") 
      background-repeat: no-repeat;
      background-position: right bottom;
 
- }
+ } */
 
 
  /* banner style  */
